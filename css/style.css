@@ -1,0 +1,26 @@
+/*
+ ==============================
+ *   start header css style    *
+ ==============================
+*/
+header{
+   /* background-image: url(../img/main.png), linear-gradient(#eb01a5, #d13531);*/
+    background: url(../img/main.png) center no-repeat ,-webkit-linear-gradient(#FFFFFF 50%, #DDDDDD 10%);
+    background-size: cover;
+    //*background:linear-gradient(90deg, #0094ff 50%,url(../img/main.png),10%);
+    background-image: -webkit-linear-gradient(135deg, #0094ff 50%, #764ba2 10%);
+    /*background: -webkit-linear-gradient(135deg, #0094ff 50%, #764ba2 50% ,#4057c2);
+    background: -webkit-linear-gradient(135deg, #4057c2 0%, #764ba2 100%);
+    background-color:#0094ff*/
+}
+header .list-header ul li a{
+    text-decoration: none;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+header .list-header{
+
+}
+/*-webkit-linear-gradient(135deg, #4057c2 0%, #764ba2 100%)
